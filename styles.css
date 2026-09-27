@@ -133,7 +133,7 @@ h1 {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 14px;
   margin-top: 56px;
   text-align: left;
@@ -309,8 +309,12 @@ h1:hover,
     animation-delay: 0.46s;
   }
 
-  .note {
+  .cards article:nth-child(4) {
     animation-delay: 0.52s;
+  }
+
+  .note {
+    animation-delay: 0.58s;
   }
 }
 
