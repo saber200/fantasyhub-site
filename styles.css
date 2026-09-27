@@ -28,6 +28,12 @@ body {
   min-height: 100%;
   background: var(--bg0);
   color: var(--ink);
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
 }
 
 body {
