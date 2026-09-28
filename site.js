@@ -1,8 +1,9 @@
+const version = "0.1.16";
+
 const site = {
-  version: "0.1.15",
-  fileName: "FantasyHub_0.1.15_x64-setup.exe",
-  downloadUrl:
-    "https://github.com/saber200/handheld-launcher/releases/download/v0.1.15/FantasyHub_0.1.15_x64-setup.exe",
+  version,
+  fileName: `FantasyHub_${version}_x64-setup.exe`,
+  downloadUrl: `https://github.com/saber200/handheld-launcher/releases/download/v${version}/FantasyHub_${version}_x64-setup.exe`,
 };
 
 const download = document.querySelector("#download");
